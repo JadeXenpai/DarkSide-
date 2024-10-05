@@ -130,3 +130,30 @@ footer {
   object-fit: cover;
 }
 }
+
+@media (max-width: 500px){
+
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .logo {
+    width: 100px;
+    margin-left: 35%;
+  }
+}
+
+  @media (max-width: 300px){
+
+    h1 {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    .logo {
+      width: 100px;
+      margin-left: 25%;
+    }
+
+  }
